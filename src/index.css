@@ -10,3 +10,7 @@
   font-weight: 400;
 
 }
+
+*{
+  transition: 2s cubic-bezier(0.23, 1, 0.320, 1);
+}

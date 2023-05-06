@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 function SeccionHero() {
 
   return (
-    <div >
+    <div  >
       <NavBar />
       <div className="">
         <div className="w-3/4 mx-auto flex flex-col gap-5 justify-center items-center" style={{ height: '82vh' }}>
@@ -13,6 +13,7 @@ function SeccionHero() {
           <p className="font-semibold text-gray-700 text-sm text-center sm:text-xl lg:text-2xl">
             Software Developer
           </p>
+          <button className="relative">My skills</button>
         </div>
       </div>
 
