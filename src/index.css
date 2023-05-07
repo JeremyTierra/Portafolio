@@ -12,5 +12,5 @@
 }
 
 *{
-  transition: 2s cubic-bezier(0.23, 1, 0.320, 1);
+  transition: 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }

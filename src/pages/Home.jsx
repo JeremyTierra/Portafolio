@@ -10,7 +10,7 @@ function Home() {
         <SeccionHero />
         <div className="contents">
             <h1>My Skllis</h1>
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores a praesentium dolores consectetur explicabo optio necessitatibus esse alias debitis natus repudiandae unde asperiores commodi, architecto nam ratione? Commodi, a possimus.</div>
+        <div className="h-96">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores a praesentium dolores consectetur explicabo optio necessitatibus esse alias debitis natus repudiandae unde asperiores commodi, architecto nam ratione? Commodi, a possimus.</div>
         </div>
     
     </>

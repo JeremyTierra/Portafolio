@@ -1,0 +1,44 @@
+.dataContainer h1 {
+  color: var(--color3);
+
+  text-align: center;
+  justify-content: center;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.dataContainer h1:before {
+  content: "[";
+  left: 0;
+}
+.dataContainer h1:after {
+  
+  content: "]";
+  position: absolute;
+  right: 0;
+}
+.dataContainer h1:after, .dataContainer h1:before {
+  position: relative;
+  top: 0;
+  color: #16a085;
+  font-size: 7rem;
+  line-height: 40px;
+  -webkit-animation-name: opacidad;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: opacidad;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes opacidad {
+    50% {
+      color: aliceblue;
+    }
+  }
+ 
+  @media (max-width:740px) {
+    .dataContainer h1:after, .dataContainer h1:before {
+   
+              font-size: 3rem;
+
+      }
+  }
