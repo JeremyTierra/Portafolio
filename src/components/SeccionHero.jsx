@@ -15,7 +15,7 @@ function SeccionHero() {
             <b>Software Developer </b>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ducimus eaque dolorem saepe autem possimus dicta, odio nostrum aliquid, ab nulla distinctio officia commodi modi. Voluptatibus rem facilis animi quod!
           </p>
-          <Button text={"My skills"}></Button>
+          <Button text={"My skills"} ></Button>
         </div>
       </div>
 

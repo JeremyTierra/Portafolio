@@ -3,7 +3,7 @@
 const particlesConfig= {
     "particles": {
       "number": {
-        "value": 25,
+        "value": 13,
         "density": {
           "enable": true,
           "value_area": 800
@@ -56,7 +56,7 @@ const particlesConfig= {
       },
       "move": {
         "enable": true,
-        "speed": 6,
+        "speed": 3,
         "direction": "none",
         "random": false,
         "straight": false,

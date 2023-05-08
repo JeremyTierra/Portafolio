@@ -14,3 +14,12 @@
 *{
   transition: 0.5s cubic-bezier(0.23, 1, 0.320, 1);
 }
+body::-webkit-scrollbar-thumb{
+  background-color:#b9b9b9;
+  border-radius: 5px;
+  border-bottom: 15px solid #a1cbbe;
+}
+body::-webkit-scrollbar{
+ width: 7px;
+
+}

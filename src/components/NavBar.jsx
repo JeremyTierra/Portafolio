@@ -20,13 +20,9 @@ function NavBar() {
             </svg>
           </button>
         </div>
-        <nav className={`flex-col flex-grow pb-4 md:pb-0 md:flex md:flex-row-reverse ${open ? 'flex' : 'hidden'}`}>
+        <nav className={`flex-col-reverse flex-grow pb-4 md:pb-0 md:flex md:flex-row-reverse ${open ? 'flex' : 'hidden'}`}>
 
-          
-     
-
-     <Link className="px-3 underline" to={"/contact"}>Contact me</Link>
-     
+     <Link className="px-3 underline" to={"/contact"}>Contact me</Link> 
      <Link className="px-3 underline "  to={"/proyects"}>Proyects</Link>
      <Link className="px-3 underline "  to={"/"}>Home</Link>
           
