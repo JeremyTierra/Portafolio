@@ -1,4 +1,5 @@
 
+import Footer from "../components/Footer";
 import MySkills from "../components/MySkills";
 import ParticlesBackground from "../components/ParticlesBackground";
 import SeccionHero from "../components/SeccionHero";
@@ -9,6 +10,7 @@ function Home() {
       <ParticlesBackground />
       <SeccionHero />
       <MySkills></MySkills>
+      <Footer></Footer>
     </>
   );
 }
