@@ -13,7 +13,7 @@ function SeccionHero() {
           </h1>
           <p className="font-semibold text-gray-700 text-sm text-center sm:text-xl lg:text-2xl p-3">
             <b>Software Developer </b>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ducimus eaque dolorem saepe autem possimus dicta, odio nostrum aliquid, ab nulla distinctio officia commodi modi. Voluptatibus rem facilis animi quod!
+            Soy un apasionado de la tecnología, con una sed incansable por aprender. Mi objetivo es formar parte de una empresa líder en el campo, donde pueda poner en práctica mis habilidades y conocimientos, aportando valor y creciendo profesionalmente junto a un equipo talentoso.
           </p>
           <Button text={"My skills"} ></Button>
         </div>
