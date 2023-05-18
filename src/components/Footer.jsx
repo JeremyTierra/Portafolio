@@ -14,11 +14,11 @@ export default function Footer() {
                             Proyects
                         </Link>
                     </div>
-                    <div className="px-6 py-2 border border-stone-500 shadow-md">
-                        <Link to={"/contact"} className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                    <Link to={"/contact"} className="text-base leading-6 text-gray-500 hover:text-gray-900">
+                        <div className="px-6 py-2 border border-stone-500 shadow-md">
                             Contact me
-                        </Link>
-                    </div>
+                        </div>
+                    </Link>
                 </nav>
                 <div className="flex justify-center mt-8 space-x-6">
                     <a href="https://www.linkedin.com/in/jeremy-tierra-0638061a9/" className="text-gray-400 hover:text-gray-500" target="_blank" rel="noreferrer" >
