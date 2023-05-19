@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 
 function Contact() {
@@ -5,6 +6,7 @@ function Contact() {
         <>
 <NavBar></NavBar>
 <h1>Contacts</h1>
+<Footer></Footer>
         </>
     )
 }
