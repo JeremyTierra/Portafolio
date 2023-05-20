@@ -1,11 +1,12 @@
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
+import SeccionContact from "../components/SectionContact";
 
 function Contact() {
     return (
         <>
 <NavBar></NavBar>
-<h1>Contacts</h1>
+<SeccionContact></SeccionContact>
 <Footer></Footer>
         </>
     )

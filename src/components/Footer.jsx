@@ -1,5 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link,useLocation} from "react-router-dom";
+import { useEffect } from "react";
 export default function Footer() {
+    const location = useLocation();
+    useEffect(() => {
+
+        window.scrollTo(0, 0);
+      }, [location.pathname]);
     return (
         <section className="bg-white relative">
             <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">

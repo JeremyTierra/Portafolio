@@ -1,9 +1,9 @@
 
 export default function Post({ image, title, description, git, web, index }) {
     return (
-        <div key={index} className="my-8 rounded shadow-lg shadow-gray-200  bg-white duration-300 hover:-translate-y-1 ">
+        <div key={index} className="my-8 rounded shadow-lg shadow-gray-200  bg-white duration-300 hover:-translate-y-1  ">
             <div className="cursor-pointer h-full">
-                <figure className='pb-16'>
+                <figure >
                     <img src={`${image}`} className="rounded-t h-72 w-full object-cover" alt="Post" />
                     <figcaption className="p-4">
                         <p className="text-lg mb-4 font-bold leading-relaxed text-gray-800 dark:text-gray-300">{title}</p>

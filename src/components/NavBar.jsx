@@ -1,10 +1,15 @@
-import  { useState } from "react";
+import  { useState,useEffect } from "react";
 import LogoNegro from "../assets/Logo_J3_Negro.svg"
 
 import '../styles/seccionHero.css'
-import { Link } from "react-router-dom";
+import { Link,useLocation } from "react-router-dom";
 function NavBar() {
+  const location = useLocation();
   const [open, setOpen] = useState(false);
+  useEffect(() => {
+
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
 
   return (
     <div className="w-full text-gray-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800 fixed z-10"  >
