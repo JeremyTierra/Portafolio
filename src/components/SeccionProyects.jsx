@@ -28,8 +28,8 @@ function SeccionProyects() {
     ];
 
     return (
-        <section className="bg-gray-100 dark:bg-gray-900 py-10 px-12 pt-28 min-h-screen ">
-            <h1 className='mb-3 text-4xl text-center font-semibold sm:text-4xl '>Proyects</h1>
+        <section className="bg-gray-100  py-10 px-12 pt-28 min-h-screen ">
+            <h1 className='mb- text-4xl text-center font-semibold sm:text-4xl '>Proyects</h1>
             <div className="grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 animate__animated animate__fadeInUp">
                <Post
                image= {imgAppRecetas}
