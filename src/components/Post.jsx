@@ -1,7 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-export default function Post({ image,
-    title,
 export default function Post({ image, title, description, git, web, index }) {
     return (
         <div key={index} className="my-8 rounded shadow-lg shadow-gray-200 dark:shadow-gray-900 bg-white dark:bg-gray-800 duration-300 hover:-translate-y-1 ">
