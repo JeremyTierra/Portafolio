@@ -26,7 +26,7 @@ function ListSkills() {
    <Card text={"GitHub"} icon={iconGitHub} color={""} ></Card>
    <Card text={"Bootstrap"} icon={iconBootstrap} color={"border-purple-300"} ></Card>
    <Card text={"Tailwind"} icon={iconTailwind} color={"border-blue-300"} ></Card>
-   <Card text={"Java"} icon={iconJava} progress={"true"}></Card>
+   <Card text={"Java"} icon={iconJava} progress={true}></Card>
     </div>
     </>)
 }
