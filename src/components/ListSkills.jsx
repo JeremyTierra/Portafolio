@@ -11,6 +11,7 @@ import iconGit from "../images/imgSkills/iconGit.svg";
 import iconGitHub from "../images/imgSkills/iconGitHub.svg";
 import iconTailwind from "../images/imgSkills/iconTailwind.svg";
 import iconBootstrap from "../images/imgSkills/iconBootstrap.svg";
+import iconEnglish from "../images/imgSkills/iconEnglish.svg";
 function ListSkills() {
     return(<>
     <div className="md:col-span-2 col-span-3 flex  w-full flex-row items-center justify-center space-y-2 sm:flex-row sm:space-x-2 relative flex-wrap">
@@ -27,6 +28,7 @@ function ListSkills() {
    <Card text={"Bootstrap"} icon={iconBootstrap} color={"border-purple-300"} ></Card>
    <Card text={"Tailwind"} icon={iconTailwind} color={"border-blue-300"} ></Card>
    <Card text={"Java"} icon={iconJava} progress={true}></Card>
+   <Card text={"English (A2)"} icon={iconEnglish} progress={true}></Card>
     </div>
     </>)
 }

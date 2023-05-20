@@ -27,9 +27,9 @@ function NavBar() {
         </div>
         <nav className={`flex-col-reverse flex-grow pb-4 md:pb-0 md:flex md:flex-row-reverse ${open ? 'flex' : 'hidden'}`}>
 
-     <Link className="px-3 underline text-end" to={"/contact"} >Contact me</Link> 
-     <Link className="px-3 underline text-end"  to={"/proyects"}>Proyects</Link>
-     <Link className="px-3 underline text-end"  to={"/"}>Home</Link>
+     <Link className="p-4 underline text-end active:text-gray-600" to={"/contact"} >Contact me</Link> 
+     <Link className="p-4 underline text-end"  to={"/proyects"}>Proyects</Link>
+     <Link className="p-4 underline text-end"  to={"/"}>Home</Link>
           
         </nav>
       </div>
