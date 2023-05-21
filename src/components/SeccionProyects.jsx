@@ -1,5 +1,6 @@
-import React from 'react';
-import imgAppRecetas from "../images/imgRecipes/imgAppRecetas.png";
+
+import imgAppRecetas from "../images/imgPost/imgAppRecetas.png";
+import imgAppTareas from "../images/imgPost/imgAppTareas.png";
 import Post from './Post';
 function SeccionProyects() {
 
@@ -17,11 +18,11 @@ function SeccionProyects() {
                ></Post>
                <Post
                
-               image= {imgAppRecetas}
-               title= "Mis recetas: Tu plataforma para crear y editar recetas de manera sencilla"
-               description= "Mis Recetas es una plataforma intuitiva y versátil que te permite crear y editar recetas de forma práctica y eficiente. Con una interfaz fácil de usar, podrás organizar tus ingredientes, instrucciones y fotos en un solo lugar, facilitando la planificación de tus comidas y la compartición de tus deliciosas creaciones culinarias."
+               image= {imgAppTareas}
+               title= "App de tareas"
+               description= "Mis Tareas es una aplicacion web con diseño móvil que te permite anotar tareas, realizar un seguimiento y ver cuántas has completado"
                git= "https://github.com/JeremyTierra/app_recetas"
-               web= "https://curious-beijinho-d5edce.netlify.app/"
+
 
                ></Post>
                <Post
