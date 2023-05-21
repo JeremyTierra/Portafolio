@@ -1,15 +1,17 @@
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import SeccionContact from "../components/SectionContact";
+import ContactForm from "../components/ContactForm";
 
-function Contact() {
-    return (
-        <>
-<NavBar></NavBar>
-<SeccionContact></SeccionContact>
-<Footer></Footer>
-        </>
-    )
-}
+const Contact = () => {
+  return (
+    <>
+      <NavBar />
+      <SeccionContact />
+      <ContactForm />
+      <Footer />
+    </>
+  );
+};
 
 export default Contact;

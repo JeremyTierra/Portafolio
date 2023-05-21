@@ -1,29 +1,26 @@
 @import "tailwindcss/base";
-
 @import "tailwindcss/components";
-
 @import "tailwindcss/utilities";
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
 }
 
-body::-webkit-scrollbar-thumb{
-  background-color:#b9b9b9;
+body::-webkit-scrollbar-thumb {
+  background-color: #b9b9b9;
   border-radius: 5px;
   border-bottom: 15px solid #a1cbbe;
 }
-body::-webkit-scrollbar{
- width: 7px;
 
+body::-webkit-scrollbar {
+  width: 7px;
 }
+
 html {
   scroll-behavior: smooth;
 }
-
 
 .fade-left-enter {
   opacity: 0;

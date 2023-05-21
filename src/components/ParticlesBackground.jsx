@@ -4,20 +4,15 @@ import { loadFull } from "tsparticles";
 import particlesConfig from "../config/particlesConfig";
 
 function ParticlesBackground() {
-    const particlesInit = useCallback(async engine => {
-        console.log(engine);
-        await loadFull(engine);
-    }, []);
+  const particlesInit = useCallback(async engine => {
+    await loadFull(engine);
+  }, []);
 
-    const particlesLoaded = useCallback(async container => {
-        await console.log(container);
-    }, []);
   return (
     <>
       <Particles id="tsparticles"
-            init={particlesInit}
-            loaded={particlesLoaded}
-            options={particlesConfig} style={{zIndex:"-10"}}/>
+        init={particlesInit}
+        options={particlesConfig} style={{ zIndex: "-10" }} />
     </>
   );
 }

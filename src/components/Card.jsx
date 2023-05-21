@@ -1,19 +1,15 @@
 import PropTypes from 'prop-types';
-
 import 'animate.css';
-
 import { useState, useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
-
 
 function Card({ text, icon, progress, color }) {
   const [visible, setVisible] = useState(false);
   const { ref, inView } = useInView({
-    triggerOnce: true, // La animación se activará solo una vez
-    threshold: 0.1, // El componente se considerará visible cuando esté al menos un 10% visible en el viewport
+    triggerOnce: true,
+    threshold: 0.1,
   });
 
-  // Cuando el componente sea visible, actualiza el estado para activar la animación
   useEffect(() => {
     if (inView) {
       setVisible(true);
