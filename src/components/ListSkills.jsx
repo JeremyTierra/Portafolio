@@ -8,7 +8,7 @@ import iconExpress from "../images/imgSkills/iconExpress.svg";
 import iconPostgresql from "../images/imgSkills/iconPostgresql.svg";
 import iconJava from "../images/imgSkills/iconJava.svg";
 import iconGit from "../images/imgSkills/iconGit.svg";
-// import iconGitHub from "../images/imgSkills/iconGitHub.svg";
+import iconGitHub from "../images/imgSkills/iconGitHub.svg";
 import iconTailwind from "../images/imgSkills/iconTailwind.svg";
 import iconBootstrap from "../images/imgSkills/iconBootstrap.svg";
 import iconEnglish from "../images/imgSkills/iconEnglish.svg";
@@ -24,7 +24,7 @@ function ListSkills() {
             <Card text={"Express"} icon={iconExpress} ></Card>
             <Card text={"Postgresql"} icon={iconPostgresql} color={"border-blue-300"} ></Card>
             <Card text={"Git"} icon={iconGit} color={"border-orange-300"} ></Card>
-            {/* <Card text={"GitHub"} icon={iconGitHub} color={"border-blue-300"} ></Card> */}
+            <Card text={"GitHub"} icon={iconGitHub} color={"border-blue-300"} ></Card>
             <Card text={"Bootstrap"} icon={iconBootstrap} color={"border-purple-300"} ></Card>
             <Card text={"Tailwind"} icon={iconTailwind} color={"border-blue-300"} ></Card>
             <Card text={"Java"} icon={iconJava} progress={true}></Card>
