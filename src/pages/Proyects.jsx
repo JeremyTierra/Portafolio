@@ -1,12 +1,12 @@
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import SeccionProyects from "../components/SeccionProyects";
+import SectionProyects from "../components/SectionProyects";
 
 const Proyects = () => {
   return (
     <>
       <NavBar />
-      <SeccionProyects />
+      <SectionProyects />
       <Footer />
     </>
   );
