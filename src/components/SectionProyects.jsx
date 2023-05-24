@@ -42,7 +42,7 @@ const SeccionProyects = () => {
           image={imgServidor}
           title="Servidor de Login-registro con Node-Express"
           description="Desarrollé un servidor de Login y Registro utilizando Node.js y Express. Este servidor incluye funcionalidades para realizar validaciones de roles, como administrador y usuario, y se conecta a una base de datos PostgreSQL. Además, implementé el uso de tokens para la autorización y autenticación de usuarios. El servidor proporciona una capa segura para la gestión de usuarios y sus respectivos roles, garantizando la protección de la información confidencial y permitiendo un acceso controlado a los recursos del sistema."
-          git="https://github.com/JeremyTierra/AppTareas/"
+          git="https://github.com/JeremyTierra/login-register"
         />
       </div>
     </section>
