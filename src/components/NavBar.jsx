@@ -15,9 +15,9 @@ function NavBar() {
     <div className="w-full text-gray-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800 fixed z-10">
       <div className="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
         <div className="p-4 flex flex-row items-center justify-between">
-          <a href="#">
+          <Link to={"/"}>
             <img src={LogoNegro} alt="Logo" className="w-12" />
-          </a>
+          </Link>
           <button
             className="md:hidden rounded-lg focus:outline-none focus:shadow-outline"
             onClick={() => setOpen(!open)}
