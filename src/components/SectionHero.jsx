@@ -9,7 +9,8 @@ function SectionHero() {
             Jeremy Tierra
           </h1>
           <p className="font-semibold text-gray-700 text-sm text-center sm:text-xl lg:text-2xl p-3" style={{ userSelect: 'none' }}>
-            <b>Software Developer</b> Soy un apasionado de la tecnología, con una sed incansable por aprender. Mi objetivo es formar parte de una empresa líder en el campo, donde pueda poner en práctica mis habilidades y conocimientos, aportando valor y creciendo profesionalmente junto a un equipo talentoso.
+            <b>Software Developer</b>
+            <br/> Mi objetivo es formar parte de una empresa líder en el campo, donde pueda poner en práctica mis habilidades y conocimientos, aportando valor y creciendo profesionalmente junto a un equipo talentoso.
           </p>
           <Button text="My skills" />
         </div>
